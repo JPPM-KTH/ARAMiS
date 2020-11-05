@@ -16,8 +16,8 @@ The author may be contacted at [jppm@kth.se](mailto:jppm@kth.se).
 
 ## How to
 
+### Background 
 The code relies on the Transfer Matrix Method (TMM). All physical fields are assumed to be a superposition of hamonic plane waves.
-
 The numerical method, physical and material models can be found in [the bibliography](Bibliography).
 
 ### Structure of the code
@@ -61,7 +61,12 @@ After the computation, several elements will appear in the structure L.  Several
 
 * if `in.termination='transmission'`, then `out.TL` denotes the sound transmission loss of the multilayered structure (in dB) per frequency (as defined in `in.f`).
 * if `in.termination='rigid backing'`, then `out.R` denotes the reflection coefficient (real and imaginary parts) of the multilayered structure per frequency (as defined in `in.f`); `out.Absoprt` denotes the absorption coefficient of the multilayered structure per frequency (as defined in `in.f`).
-	
+
+### Examples
+2 examples are supplied:
+* `example_1.m`: the absorption coefficient of an anisotropic melamine (poroelastic) layer at normal incidence. The material rotations are explained in the bibliography.
+* `example_2`: the transmisison loss of a multilayered system comprised of two aluminum sheets with a poroelastic core and an airgap.
+
 # Acknowlegments
 The following people contributed in no small matter to the development of the code ARAMiS. Their contribution is highly acknowledged.
 
