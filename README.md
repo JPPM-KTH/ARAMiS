@@ -1,4 +1,5 @@
 # ARAMiS
+[![DOI](https://zenodo.org/badge/308288970.svg)](https://zenodo.org/badge/latestdoi/308288970)
 The code **ARAMiS** (**A**coustic **R**esponse of **A**nisotropic **M**ult**i**layered **S**tructures) is a tool to calculate the transmission loss, reflection coefficient, or absorption coefficient of any given structure multilayered structure.
 
 The purpose of the project was to study the influence of the instrinsic anisotropy of poroelastic media on wave propagation. 
