@@ -5,6 +5,8 @@
 %% License: GNU LGPL 3.0
 
 clear all
+addpath(genpath('./src/'))
+
 
 %% Constants
 air_properties_maine;		% Load properties of air
