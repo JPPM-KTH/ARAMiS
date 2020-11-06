@@ -1,7 +1,7 @@
 phi=0.976;
 
 sig=1000e3*eye(3);
-alpha=1.17000*eye(3);
+tort=1.17000*eye(3);
 LCV=39e-6;
 LCT=2*39e-6;
 
