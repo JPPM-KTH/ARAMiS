@@ -64,8 +64,13 @@ After the computation, several elements will appear in the structure L.  Several
 
 ### Examples
 2 examples are supplied:
-* `example_1.m`: the absorption coefficient of an anisotropic melamine (poroelastic) layer at normal incidence. The material rotations are explained in the bibliography.
-* `example_2`: the transmisison loss of a multilayered system comprised of two aluminum sheets with a poroelastic core and an airgap.
+* `example_1.m`: the absorption coefficient of an anisotropic melamine (poroelastic) layer at normal incidence. The material rotations are explained in the bibliography. Both the absorption coefficient and the dissipated power by structural means are plotted.
+* `example_2`: the transmisison loss of a multilayered system comprised of two aluminum sheets with an isotropic poroelastic core and an airgap, excited by a plane wave at a 42 deg. incidence. The sound transmission loss of the structure is plotted, as well as the total kinetic power in the poroelastic layer.
+
+## Known problems
+* The calculation of powers returns both positive and negative values. This will be corrected in a future update.
+* The calculation of the powers and energies in fluid layers returns numerial stabilities and the the values are close to zero.
+
 
 # Acknowlegments
 The following people contributed in no small matter to the development of the code ARAMiS. Their contribution is highly acknowledged.
