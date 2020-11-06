@@ -83,6 +83,7 @@ The following people contributed in no small matter to the development of the co
 * Prof. Olivier Dazel, Le Mans Université, Le Mans, France
 * Jacques Cuenca, Siemens Industry Software, Leuven, Belgium / KTH Royal Institute of Technology, Stockholm, Sweden
 * Luca Manzari, KTH Royal Institute of Technology, Stockholm, Sweden
+* Luc Jaouen, Matelys, Vaux-en-Velin, France
 
 All functions have been developed by the author and collaborators with the exception of the function 'eigenshuffle' by John D'Errico (woodchips@rochester.rr.com).
 
