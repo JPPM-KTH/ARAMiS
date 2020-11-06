@@ -74,7 +74,9 @@ The following people contributed in no small matter to the development of the co
 * Prof. Olivier Dazel, Le Mans Université, Le Mans, France
 * Jacques Cuenca, Siemens Industry Software, Leuven, Belgium / KTH Royal Institute of Technology, Stockholm, Sweden
 * Luca Manzari, KTH Royal Institute of Technology, Stockholm, Sweden
-	
+
+All functions have been developed by the author and collaborators with the exception of the function 'eigenshuffle' by John D'Errico (woodchips@rochester.rr.com).
+
 # Bibliography
 Parra, J. (2016). Acoustic analysis of anisotropic poroelastic multilayered systems. Journal of Applied Physics, 119(8), 84907. https://doi.org/10.1063/1.4942443
 
