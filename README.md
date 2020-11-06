@@ -1,7 +1,7 @@
 # ARAMiS
 The code **ARAMiS** (**A**coustic **R**esponse of **A**nisotropic **M**ult**i**layered **S**tructures) is a tool to calculate the transmission loss, reflection coefficient, or absorption coefficient of any given structure multilayered structure.
 
-The purpose of the project was to study the influence of the instrinsic anisotropy of poroelastic media on the wave propagation within multilayered structures. 
+The purpose of the project was to study the influence of the instrinsic anisotropy of poroelastic media on wave propagation. 
 
 The code has been written in Matlab, and compiles in both Matlab and Octave.
 
@@ -79,7 +79,9 @@ The following people contributed in no small matter to the development of the co
 * Prof. Olivier Dazel, Le Mans Université, Le Mans, France
 * Jacques Cuenca, Siemens Industry Software, Leuven, Belgium / KTH Royal Institute of Technology, Stockholm, Sweden
 * Luca Manzari, KTH Royal Institute of Technology, Stockholm, Sweden
-	
+
+All functions have been developed by the author and collaborators with the exception of the function 'eigenshuffle' by John D'Errico (woodchips@rochester.rr.com).
+
 # Bibliography
 Parra, J. (2016). Acoustic analysis of anisotropic poroelastic multilayered systems. Journal of Applied Physics, 119(8), 84907. https://doi.org/10.1063/1.4942443
 
