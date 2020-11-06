@@ -11,7 +11,7 @@ All terminology used in the code refers to [the bibliography](Bibliography).
 
 ## Conditions of usage
 The use of this software is permitted under the license LGPL-3.0.
-A particular request from the author is that you cite the relevant publications in [the bibliography](Bibliography) if you use the code.
+A particular request from the author is that you cite the relevant publications in [the bibliography](Bibliography) if you use the code, as well as **Parra, J. (2020). JPPM-KTH/ARAMiS: Stable version. Zenodo. http://doi.org/10.5281/zenodo.4249480**
 The author may be contacted at [jppm@kth.se](mailto:jppm@kth.se).
 
 ## How to
@@ -83,6 +83,8 @@ The following people contributed in no small matter to the development of the co
 All functions have been developed by the author and collaborators with the exception of the function 'eigenshuffle' by John D'Errico (woodchips@rochester.rr.com).
 
 # Bibliography
+Parra, J. (2020). JPPM-KTH/ARAMiS: Stable version. Zenodo. http://doi.org/10.5281/zenodo.4249480
+
 Parra, J. (2016). Acoustic analysis of anisotropic poroelastic multilayered systems. Journal of Applied Physics, 119(8), 84907. https://doi.org/10.1063/1.4942443
 
 Parra, J. (2016). Derivation of the state matrix for dynamic analysis of linear homogeneous media. The Journal of the Acoustical Society of America, 140(2), EL218–EL220. https://doi.org/10.1121/1.4960624
