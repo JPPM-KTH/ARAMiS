@@ -83,3 +83,6 @@ C(3,:)=[lambda lambda 2*mu+lambda 0 0 0];
 C(4,4)=2*mu;
 C(5,5)=2*mu;
 C(6,6)=2*mu;
+
+C_i=C;
+sig_i=sig;

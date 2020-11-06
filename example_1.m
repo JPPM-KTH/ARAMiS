@@ -1,8 +1,8 @@
-%% EXAMPLE: Poroelastic material layer
+%% EXAMPLE: Poroelastic material layer.
 %% Author: Juan Parra
 %% Email: jppm@kth.se
-%% Date: 2020-10-29
-%% License: GNU LGPL 2.1
+%% Date: 2020-11-06
+%% License: GNU LGPL 3.0
 
 clear all
 
@@ -10,6 +10,7 @@ clear all
 air_properties_maine;		% Load properties of air
 global L in out
 
+%%% INPUTS
 %% Definition of the frequency domain
 fmin=10;			% initial frequency
 fmax=1000;			% last frequency
@@ -24,6 +25,7 @@ in.theta_2=1e-3*pi/180; % angle x0y
 %% Termination
 in.termination='rigid backing';
 
+%%% MATERIAL LAYERS
 %% CONSTANTS PER LAYER
 L(1).d=50e-2;			% Thickness of the layer
 L(1).material.type='pem';	% 'pem' for poroelastic media
@@ -34,9 +36,10 @@ L(1).material.beta_rot=pi/2;
 L(1).material.gamma_rot=0;
 
 
-
+%%% OUTPUT
 %% Resolution protocol. DO NOT CHANGE
 [L,out]=ARAMiS(L,in);
+
 
 %% Example plot
 subplot(211)
