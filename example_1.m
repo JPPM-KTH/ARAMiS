@@ -37,6 +37,11 @@ L(1).material.alfa_rot=0;
 L(1).material.beta_rot=pi/2;
 L(1).material.gamma_rot=0;
 
+## Layer 2 - add coupling layer for rigid backing to work. The3 code is being updated to remove this layer.
+L(2).d=1e-10;
+L(2).material.type='solid';
+L(2).material.sheet='mat_rigid';
+L(2).material.rotation=1;  %% 1 == no // 2 == si
 
 %%% OUTPUT
 %% Resolution protocol. DO NOT CHANGE
