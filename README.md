@@ -74,7 +74,7 @@ After the computation, several elements will appear in the structure L.  Several
 ## Known problems
 * The calculation of powers returns both positive and negative values. This will be corrected in a future update.
 * The calculation of the powers and energies in fluid layers returns numerial stabilities and the the values are close to zero.
-
+* The calulation of the rigid backing problem when the last layer is a poroelastic layer (example_1.m) requires the addition of a fictive solid layer between the last porous layer and the backing.
 
 # Acknowlegments
 The following people contributed in no small matter to the development of the code ARAMiS. Their contribution is highly acknowledged.
